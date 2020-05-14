@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Parasmani Sah">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="daily-rout">
+        <div class="to-day">
+            <p>Today is,</p>
+
+            <!-- Display Day -->
+            <h1 id="day"></h1>
+        </div>
+
+        <!-- Display date -->
+        <div class="dateStyle">
+            <h3 id="date"></h3>
+        </div>
+        <div class="routine">
+            <h2>Today's Routine</h2>
+
+            <!-- Display quotation -->
+           <em> <p id="quoat"></p> </em> 
+
+        </div>
+
+        <!-- Display college time after clicking  -->
+        <div class="work">
+            <a href="#" onclick="collegeTime()">College Time: </a>
+            <p>12:00 PM to 3:00 PM</p>
+        </div>
+
+        <!-- Display work to do that day after clicking -->
+        <div class="work-2" onclick="workToDo()">
+            <a href="#">Work to Do</a>
+        </div>
+
+    </div>
+
+    <div>
+        
+        <!-- Daily college time routine section -->
+
+        <div class="dailyWork hide" id="1">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>Lecture</p>
+            <p>1. IS <br> 8:30 AM to 10:00 AM</p>
+            <p>2.Programming <br> 10:30 AM to 12:00 PM</p>
+        </div>
+        <div class="dailyWork hide" id="2">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <P>Lecture</P>
+            <p>1. Hardware <br> 10:00 AM to 11:00 AM</p>
+            <p>2.Logic <br> 11:30 AM to 12:30 PM</p>
+        </div>
+        <div class="dailyWork hide" id="3">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>Tutorial</p>
+            <p>1. IS <br> 8:30 AM to 10:00 AM</p>
+            <p>2.Programming <br> 11:00 AM to 12:00 PM</p>
+        </div>
+        <div class="dailyWork hide" id="4">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>Tutorial</p>
+            <p>1. Hardware <br> 12:00 PM to 01:00 PM</p>
+            <p>2. Logic <br> 01:30 PM to 02:30 PM</p>
+        </div>
+        <div class="dailyWork hide" id="5">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>Lab</p>
+            <p>1. Logic <br> 07:30 AM to 09:00 AM</p>
+            <p>2.Hardware <br> 09:30 AM to 11:30 PM</p>
+        </div>
+        <div class="dailyWork hide" id="6">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>Lab</p>
+            <p>1. IS <br> 01:30 PM to 02:30 PM</p>
+            <p>2.Programming <br> 10:30 AM to 12:00 PM</p>
+        </div>
+        <div class="dailyWork hide" id="7">
+            <p>Today is Holiday!</p>
+        </div>
+    </div>
+
+    <div>
+
+        <!-- Daily work section -->
+
+        <div class="dailyWork hide" id="11">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on Java. </p>
+            <p>2. Play Vollyball.</p>
+        </div>
+        <div class="dailyWork hide" id="12">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on HTML & CSS. </p>
+            <p>2. Play Badminton.</p>
+        </div>
+        <div class="dailyWork hide" id="13">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on JavaScript. </p>
+            <p>2. Play Cricket.</p>
+        </div>
+        <div class="dailyWork hide" id="14">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on Python. </p>
+            <p>2. Play Basketball.</p>
+        </div>
+        <div class="dailyWork hide" id="15">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on Database. </p>
+            <p>2. Play Chess.</p>
+        </div>
+        <div class="dailyWork hide" id="16">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Study on Cyber-Security. </p>
+            <p>2. Play Football.</p>
+        </div>
+        <div class="dailyWork hide" id="17">
+            <span class="closebtn" onclick="this.parentElement.style.display = 'none';">X</span>
+            <p>To-Do</p>
+            <p>1. Do other activites. </p>
+            <p>2. Going on walk.</p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>

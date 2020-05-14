@@ -1,0 +1,134 @@
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto.ttf);
+}
+@font-face{
+    font-family: 'Fredoka';
+    src: url(./fonts/FredokaOne.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+    
+}
+
+.daily-rout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 26%;
+    height: 54vh;
+    background: linear-gradient(to left, #cbd1cf, #e6f0ec);
+}
+
+.to-day{
+    margin: 16px;
+    width: 90%;
+}
+.to-day p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.to-day h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 56px;
+    font-weight: 600;
+    font-family: 'Fredoka', sans-serif;
+    color: #3fcc9d;
+}
+.dateStyle{
+    margin: 16px;
+    width: 35%;
+    padding-top: 20px;
+}
+#date h3{
+    margin: 16px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.routine{
+    margin: 16px;
+}
+.routine p{
+    padding-top: 0px;
+}
+.routine h2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.work, .work-2{
+    margin: 16px;
+}
+.work a{
+    display: block;
+    width: 23%;
+    color: black;
+    padding: 7px 6px;
+    font-size: .85em;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #3fcc9d;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.work a:hover{
+    background-color: #35d49f;
+    color: white;
+}
+.work-2 a{
+    display: block;
+    width: 23%;
+    color: black;
+    padding: 7px 6px;
+    font-size: .85em;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #3fcc9d;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.work-2 a:hover{
+    background-color: #35d49f;
+    color: white;
+}
+
+
+.dailyWork {
+    position: absolute;
+    top: 71%;
+    left: 62%;
+    transform: translate(-62%, -70%);
+    width: 18%;
+    height: 19vh;
+    background: linear-gradient(to left, #2fc48d, #4feeb4);
+    font-family: sans-serif;
+    font-size: .9em;
+}
+.dailyWork p{
+    margin: 14px;
+}
+.hide {
+    display: none;
+}
+
+.closebtn {
+    margin: 10px;
+    padding-right: 10px;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover{
+    color: white;
+}
